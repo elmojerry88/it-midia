@@ -14,6 +14,10 @@ function Intro() {
             </h1>
             <h3 className='text-white font-kanit italic text-xl font-medium mt-2'>Nós nos integramos á sua equipe, 
             ajudamos você a descobrir o software que precisa <br /> e em seguida entregamos rápidamente.</h3>
+            <div className='flex items-center space-x-2 mt-2 '>
+              <button className=''>Teste</button>
+              <button className=''>Teste</button>
+            </div>
           </div>
           <div>
             <img className='animate-pulse' src="./img/eng.png" alt="" srcset="" />
