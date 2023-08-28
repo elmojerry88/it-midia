@@ -1,6 +1,6 @@
 import { Navigation, createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Sobre from "./pages/Sobre";
+import Sobre from "./pages/Sobre.jsx";
 
 const router = createBrowserRouter([
     {
