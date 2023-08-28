@@ -6,7 +6,7 @@ import Mobile from './views/Mobile';
 import Bi from './views/Bi';
 import About from './views/About';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+
 
 
 
