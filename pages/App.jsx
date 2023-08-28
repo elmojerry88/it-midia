@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import '../src/app.css';
 import Intro from '../src/views/Intro';
 import Web from '../src/views/Web';
 import Mobile from '../src/views/Mobile';
