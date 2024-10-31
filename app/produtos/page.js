@@ -4,7 +4,7 @@ export default function Produtos() {
   return (
     <div className="">
         <Navbar2/>
-      <h1>~produtos</h1>
+      <h1>~produtos teste</h1>
     </div>
   );
 }
