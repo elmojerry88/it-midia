@@ -4,7 +4,7 @@ export default function SobreNos() {
   return (
     <div className="">
       <Navbar2/>
-      <h1>Sobre nós</h1>
+      <h1>Sobre nós teste</h1>
     </div>
   );
 }
