@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
-export default function Navbar2() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
@@ -20,17 +20,17 @@ export default function Navbar2() {
   return (
     <nav className=" w-auto py-4">
       <div className="container mx-auto flex items-center justify-center ">
-        <div className=" p-2 w-full sm:w-auto border-none md:border-2 lg:border-2 border-cream rounded-3xl">
+        <div className=" p-2 w-full sm:w-auto md:border-2 lg:border-2 border-cream rounded-3xl">
           {/* Botão de Menu Hamburguer */}
           <div className="sm:hidden flex justify-end pr-4 ">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white focus:outline-none"
+              className="text-white border-2 rounded-lg border-cream focus:outline-none"
             >
               <svg
                 className="w-8 h-8"
                 fill="none"
-                stroke="#470F4B"
+                stroke="#94249C"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -48,7 +48,7 @@ export default function Navbar2() {
           <ul
             className={clsx(
               " text-white text-center text-xs font-[family-name:var(--font-lexend-deca-regular)]",
-              "sm:flex sm:space-x-8 items-center justify-center",
+              "sm:flex sm:space-x-8 items-center justify-center mt-2",
               { block: isOpen, hidden: !isOpen, "sm:block": true }
             )}
           >

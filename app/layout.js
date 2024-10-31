@@ -29,6 +29,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
           <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <meta name="theme-color" content="#000000" />
+          <title>Página Inicial</title>
         </Head>
       <body
         className={`${lexendGigaBlack.variable} ${lexendDecaRegular.variable} ${lexendDecaBlack.variable} antialiased`}

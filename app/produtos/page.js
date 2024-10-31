@@ -1,9 +1,9 @@
-import Navbar2 from "@/components/NavBar2";
+import Navbar from "@/components/NavBar";
 
 export default function Produtos() {
   return (
     <div className="">
-        <Navbar2/>
+        <Navbar/>
       <h1>~produtos teste</h1>
     </div>
   );
