@@ -6,10 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Cor da barra de status no iPhone */}
           <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-          {/* Para uma cor específica, use a tag de theme-color */}
-          <meta name="theme-color" content="#000000" /> {/* Substitua pela cor desejada */}
         </Head>
         <body>
           <Main />
