@@ -4,7 +4,7 @@ export default function Servicos() {
   return (
     <div className="">
         <Navbar2/>
-      <h1>~serviços</h1>
+      <h1>~serviços teste</h1>
     </div>
   );
 }
