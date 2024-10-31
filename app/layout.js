@@ -12,6 +12,12 @@ const lexendDecaRegular = localFont({
   weight: "100 900",
 });
 
+const lexendDecaBlack = localFont({
+  src: "./fonts/LexendDeca-Black.ttf",
+  variable: "--font-lexend-deca-black",
+  weight: "100 900",
+});
+
 export const metadata = {
   title: "iT Mídia",
   description: "Obtenha Engenharia de Software especializada",
@@ -21,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${lexendGigaBlack.variable} ${lexendDecaRegular.variable} antialiased`}
+        className={`${lexendGigaBlack.variable} ${lexendDecaRegular.variable} ${lexendDecaBlack.variable} antialiased`}
       >
         {children}
       </body>

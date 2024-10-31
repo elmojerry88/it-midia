@@ -4,12 +4,23 @@
     background-image: url('../public/fundo-hero-section.png');
     background-size: cover;
     object-fit: cover;
+    background-position: 100% 100% ;
   }
   
+  .backgroundImage2{
+    height: 100vh;
+    background-image: url('../public/fundo-hero-2.png');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center 0% ;
+  }
   /* Quando a tela for menor que 768px, muda para outra imagem */
   @media (max-width: 768px) {
     .backgroundImage {
       background-image: url('../public/mobile-hero-section.png');
+    }
+    .backgroundImage2 {
+      background-image: url('../public/mobile-hero-2.png');
     }
   }
   
