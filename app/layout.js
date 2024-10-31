@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
-import "./globals.css";
+import "./globals.css"
+import Head from 'next/head'
 
 const lexendGigaBlack = localFont({
   src: "./fonts/LexendGiga-Black.ttf",
@@ -26,6 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        </Head>
       <body
         className={`${lexendGigaBlack.variable} ${lexendDecaRegular.variable} ${lexendDecaBlack.variable} antialiased`}
       >
