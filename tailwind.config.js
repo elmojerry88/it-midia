@@ -50,6 +50,10 @@ module.exports = {
   				'5': 'hsl(var(--chart-5))'
   			},
 			cream: '#5A4243',
+			lilac: {
+				100: '#020044',
+				200: '#350630'
+			}
 
   		},
   		borderRadius: {

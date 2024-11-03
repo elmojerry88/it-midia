@@ -47,7 +47,7 @@ export default function Navbar() {
           {/* Links do menu */}
           <ul
             className={clsx(
-              " text-white text-center text-xs font-[family-name:var(--font-lexend-deca-regular)]",
+              " text-white text-center text-sm font-[family-name:var(--font-lexend-deca-regular)]",
               "sm:flex sm:space-x-8 items-center justify-center mt-2 lg:mt-0",
               { block: isOpen, hidden: !isOpen, "sm:block": true }
             )}
