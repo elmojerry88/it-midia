@@ -18,7 +18,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className=" w-auto py-4">
+    <nav className=" w-auto py-2">
       <div className="container mx-auto flex items-center justify-center ">
         <div className=" p-2 w-full sm:w-auto md:border-2 lg:border-2 border-cream rounded-3xl">
           {/* Botão de Menu Hamburguer */}
@@ -48,7 +48,7 @@ export default function Navbar() {
           <ul
             className={clsx(
               " text-white text-center text-xs font-[family-name:var(--font-lexend-deca-regular)]",
-              "sm:flex sm:space-x-8 items-center justify-center mt-2",
+              "sm:flex sm:space-x-8 items-center justify-center mt-2 lg:mt-0",
               { block: isOpen, hidden: !isOpen, "sm:block": true }
             )}
           >

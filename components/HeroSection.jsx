@@ -15,6 +15,15 @@ export default function HeroSection(){
                 </div>
             </section>
             <section className={styles.backgroundImage2}>
+                <div className="">
+                    <div className="">
+                        <h1>DESENVOLVIMENTO WEB</h1>
+                        <h2>FRONTEND & BACKEND</h2>
+                    </div>
+                    <div className="">
+                        <h1></h1>
+                    </div>
+                </div>
             </section>
         </div>
     )
