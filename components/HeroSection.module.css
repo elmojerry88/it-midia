@@ -14,6 +14,14 @@
     object-fit: cover;
     background-position: center 0% ;
   }
+
+  .backgroundImage3{
+    height: 100vh;
+    background-image: url('../public/fundo-hero-3.png');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center 0% ;
+  }
   /* Quando a tela for menor que 768px, muda para outra imagem */
   @media (max-width: 768px) {
     .backgroundImage {
@@ -21,6 +29,10 @@
     }
     .backgroundImage2 {
       background-image: url('../public/mobile-hero-2.png');
+    }
+
+    .backgroundImage3 {
+      background-image: url('../public/mobile-hero-3.png');
     }
   }
   
